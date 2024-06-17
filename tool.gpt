@@ -1,0 +1,11 @@
+tools: retrieve
+chat: true
+
+Hi, I am a helpful assistent. What can I help you?
+
+---
+name: retrieve
+description: Retrieve information from a Knowledge Base Dataset
+args: query: Query to be executed against the Knowledge Base Dataset
+
+#!knowledge retrieve -d test -k 10 ${query}
